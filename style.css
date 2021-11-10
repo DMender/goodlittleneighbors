@@ -36,12 +36,14 @@ figure img {
 	border-radius: 30px;
 }
 figcaption {
+	color: #49111c;
 	margin-left: 2em;
 	font-style: italic;
 	font-family: 'Montserrat', sans-serif;
 }
 
 blockquote {
+	color: #49111c;
 	border-radius: 15px;
 	border-left: 10px solid #49111c;
 	margin: 0 10em;
@@ -101,4 +103,11 @@ h4 {
 	font-family: 'Montserrat', sans-serif;
 	margin-left: 4em;
 	padding-left: 1em;
+}
+
+@media screen and (min-width: 900px) {
+	header, main, footer {
+		max-width: 65vw;
+		margin-left: 5em;
+	}
 }
