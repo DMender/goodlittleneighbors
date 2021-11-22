@@ -184,6 +184,10 @@ footer .social {
 	margin: 1em 0.5em 0;
 }
 
+.social img:hover {
+	border-bottom: 1px dotted white;
+}
+
 #hamburger {
 	float: right;
 	margin-left: 0;
