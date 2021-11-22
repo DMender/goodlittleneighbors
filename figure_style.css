@@ -48,7 +48,7 @@ div {
 	border: 10px solid #49111c;
 }
 
-#thin-border {
+.thin-border {
 	border: 1px solid #b3a696;
 }
 
@@ -57,4 +57,8 @@ div {
 }
 #box-shadow-blur {
     box-shadow: 10px 10px 20px #49111c;
+}
+
+#no-background {
+    background-color: white;
 }
