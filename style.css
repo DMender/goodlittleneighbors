@@ -93,6 +93,15 @@ ul {
 	margin-left: 3vw;
 }
 
+ul a {
+	text-decoration: none;
+}
+
+li:hover {
+	color: #e7d7c1;
+	text-decoration: underline dotted #e7d7c1;
+}
+
 li {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
