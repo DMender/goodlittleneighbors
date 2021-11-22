@@ -29,23 +29,12 @@ img {
 	width: 100%;
 }
 
-.figure {
-}
-
-.titlecard{
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-.spacer {
-	margin: .5em 2em;
-}
 figure {
-	margin: auto;
+	margin: 2vw;
 	padding: 1.5vw;
 	border: 10px dotted #49111c;
 	border-radius: 30px;
 	background-color: #e7d7c1;
-	max-width: 600px;
 }
 figure img {
 	border-radius: 30px;
@@ -86,7 +75,7 @@ ul hr {
 	color: white;
 	border: transparent;
 	border-top: 5px solid white;
-	margin: 1em 3em 1em 0;
+	margin: 0 6vw 0 0;
 }
 ul {
 	list-style-type: none;
