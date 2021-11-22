@@ -3,11 +3,7 @@
 /* cinnamon #49111c */
 /* brown #8a716a */
 
-@import url('https://fonts.googleapis.com/css2?family=Festive&family=Montserrat:wght@300&family=Scheherazade+New&display=swap');
-@font-face {
-	font-family: "Webfont";
-	src: url("Webfont.ttf") format("ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@300&display=swap');
 
 * {
 	margin: 0;
@@ -39,10 +35,17 @@ img {
 .spacer {
 	margin: .5em 2em;
 }
+.fill {
+	background-color: #e7d7c1;
+	border-radius: 30px;
+	padding: 1em;
+	max-width: 620px;
+	margin: auto;
+}
 figure {
 	margin: auto;
 	padding: 1.5vw;
-	border: 10px dotted #49111c;
+	border: 10px solid #49111c;
 	border-radius: 30px;
 	background-color: #e7d7c1;
 	max-width: 600px;
@@ -59,7 +62,7 @@ figcaption {
 
 blockquote {
 	color: #49111c;
-	border-left: 10px dotted #49111c;
+	border-left: 10px solid #49111c;
 	margin: 0 10vw;
 	padding: 1.5vw;
 	padding-left: 2vw;
@@ -78,14 +81,13 @@ i {
 
 hr {
 	color: #00241b;
-	border: transparent;
-	border-top: 10px dotted white;
+	border: 7px solid white;
+	border-radius: 30px;
 	margin: 0 3vw 0 5vw;
 }
 ul hr {
 	color: white;
-	border: transparent;
-	border-top: 5px solid white;
+	border: 3px solid white;
 	margin: 1em 3em 1em 0;
 }
 ul {
@@ -146,7 +148,8 @@ p {
 
 h1 {
 	color: white;
-	font-family: 'Festive', cursive;
+	font-family: 'Caveat', cursive;
+	font-weight: 700;
 	font-size: 10vw;
 	margin-left: 1vw;
 	padding-left: 0.3vw;
@@ -161,7 +164,8 @@ h2 {
 
 h3 {
 	color: #49111c;
-	font-family: 'Festive', cursive;
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
 	font-size: 9vw;
 	margin-left: 1.5vw;
 	padding: 1vw 0 0 1vw;
@@ -234,8 +238,12 @@ footer .social {
 		padding: 1em;
 	}
 	menu ul {
-		border: 10px dotted white;
+		border: 10px solid white;
+		border-radius: 30px;
 		padding: 1em;
 		margin-left: 0;
+	}
+	menu {
+		border-radius: 30px;
 	}
 }
