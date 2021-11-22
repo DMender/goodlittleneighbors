@@ -1,0 +1,58 @@
+/* cream #e7d7c1 */
+/* dark green #00241b */
+/* cinnamon #49111c */
+/* brown #8a716a */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@300&display=swap');
+
+html {
+    background-color: #e7d7c1;
+}
+
+body {
+    background-color: white;
+    max-width: 70vw;
+    padding: 1em;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+	border-radius: 30px;
+}
+figcaption {
+	color: #49111c;
+	margin-left: 2vw;
+	font-style: italic;
+	font-family: 'Montserrat', sans-serif;
+}
+figure {
+	margin: 2em auto;
+	padding: 1.5vw;
+    border-radius: 30px;
+	background-color: #e7d7c1;
+	max-width: 600px;
+}
+
+div {
+	background-color: #e7d7c1;
+    border-radius: 30px;
+	padding: 1px 20px;
+    margin: 0 auto;
+    max-width: 620px;
+}
+
+#gap-border, #border {
+	border: 10px solid #49111c;
+}
+
+#thin-border {
+	border: 1px solid #b3a696;
+}
+
+#box-shadow {
+    box-shadow: 15px 15px #49111c;
+}
+#box-shadow-blur {
+    box-shadow: 10px 10px 20px #49111c;
+}
