@@ -18,12 +18,13 @@
 			<header>
 				<h1>Good Little Neighbors</h1>
 				<h2>Good Little Neighbors</h2>
-				<i id="hamburger" class="material-icons">menu</i>
 				<div class="social">
 					<a href="https://www.discord.com/" target="_blank"><img id="discord" src="icons8-discord.svg" alt="discord link"/></a>
 					<a href="https://www.twitter.com/" target="_blank"><img id="twitter" src="icons8-twitter.svg" alt="twitter link"/></a>
 				</div>
-				<i class="material-icons">local_florist</i><hr>
+			</header>
+			<main>
+				<i id="hamburger" class="material-icons">menu</i>
 				<menu>
 					<nav>
 						<ul>
@@ -39,8 +40,6 @@
 						</ul>
 					</nav>
 				</menu>
-			</header>
-			<main>
 				<h3 id="thegame">The Game</h3>
 				<p>Play as the upcoming leader of a small town of tiny beings inhabiting the walls and floorboards of an old house. Craft tools, cook delicious meals, explore the dark spaces between the walls, befriend your neighbors, and help humans by finding lost artifacts.
 				</p>
@@ -49,33 +48,27 @@
 					Drawing inspiration from adventure games, farming sims, and JRPGs, ‘Good Little Neighbors’ offers one of a kind gameplay that is fun and engaging.
 				</p>
 				<div class="spacer">
-					<div class="fill">
-						<figure>
-							<img id="book" class="figure" src="http://placekitten.com/30/15" alt="a story book">
-						</figure>
-					</div>
+					<figure>
+						<img id="book" class="figure" src="http://placekitten.com/30/15" alt="a story book">
+					</figure>
 				</div>
 
 				<h3 id="rewards">Rewards</h3>
 				<div class="spacer">
-					<div class="fill">
-						<figure>
-							<img id="tiers1" class="figure" src="http://placekitten.com/30/15" alt="rewards tiers one through five">
-							<img id="tiers2" class="figure" src="http://placekitten.com/30/15" alt="rewards tiers six through ten">
-							<figcaption>
-								*Please note that the game guide and cookbook will only be printed and distributed in physical format if we reach our stretch goal of 500k. If our project is funded with less than 500k digital copies will be produced and distributed to backers who pledged more than $95. Regardless of stretch goals, any backer who pledges $250 or more will receive a hard copy of the game for PC and backers who pledge $3500 or more will receive a model of the character they design, if the project is funded.
-							</figcaption>
-						</figure>
-					</div>
+					<figure>
+						<img id="tiers1" class="figure" src="http://placekitten.com/30/15" alt="rewards tiers one through five">
+						<img id="tiers2" class="figure" src="http://placekitten.com/30/15" alt="rewards tiers six through ten">
+						<figcaption>
+							*Please note that the game guide and cookbook will only be printed and distributed in physical format if we reach our stretch goal of 500k. If our project is funded with less than 500k digital copies will be produced and distributed to backers who pledged more than $95. Regardless of stretch goals, any backer who pledges $250 or more will receive a hard copy of the game for PC and backers who pledge $3500 or more will receive a model of the character they design, if the project is funded.
+						</figcaption>
+					</figure>
 				</div>
 
 				<h3 id="stretchgoals">Stretch Goals</h3>
 				<div class="spacer">
-					<div class="fill">
-						<figure>
-							<img id="goals" class="figure" src="http://placekitten.com/30/15" alt="stretch goals">
-						</figure>
-					</div>
+					<figure>
+						<img id="goals" class="figure" src="http://placekitten.com/30/15" alt="stretch goals">
+					</figure>
 				</div>
 
 				<h3 id="gameplay">Gameplay</h3>
@@ -103,20 +96,16 @@
 
 				<h4>Characters</h4>
 				<div class="spacer">
-					<div class="fill">
-						<figure>
-							<img id="characters" class="figure" src="http://placekitten.com/30/15" alt="portraits of several characters">
-							<figcaption>
-								17 Romanceable Neighbors and 35 Non-romanceable Neighbors
-							</figcaption>
-						</figure>
-					</div>
+					<figure>
+						<img id="characters" class="figure" src="http://placekitten.com/30/15" alt="portraits of several characters">
+						<figcaption>
+							17 Romanceable Neighbors and 35 Non-romanceable Neighbors
+						</figcaption>
+					</figure>
 				</div>
-
-				<br>
+				<p></p>
 			</main>
 			<footer>
-				<i class="material-icons">local_florist</i><hr>
 				<h3>Good Little Neighbors</h3>
 				<div class="social">
 					<a href="https://www.discord.com/" target="_blank"><img id="discord" src="icons8-discord.svg" alt="discord link"/></a>
@@ -152,10 +141,7 @@
         		$("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
     		});
 			$('#hamburger').click(function(){
-				$('menu').toggle(function() {
-						$(this).animate({height: '500'});
-					}, function() {
-						$(this).animate({height: '100'});
+				$('menu').toggle(function(){
 				});
 			});
 			if (largeQuery.matches) {

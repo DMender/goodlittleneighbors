@@ -35,17 +35,9 @@ img {
 .spacer {
 	margin: .5em 2em;
 }
-.fill {
-	background-color: #e7d7c1;
-	border-radius: 30px;
-	padding: 1em;
-	max-width: 620px;
-	margin: auto;
-}
 figure {
 	margin: auto;
 	padding: 1.5vw;
-	border: 10px solid #49111c;
 	border-radius: 30px;
 	background-color: #e7d7c1;
 	max-width: 600px;
@@ -55,7 +47,7 @@ figure img {
 }
 figcaption {
 	color: #49111c;
-	margin-left: 2vw;
+	margin: 1em auto;
 	font-style: italic;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -80,19 +72,14 @@ i {
 }
 
 hr {
-	color: #00241b;
-	border: 7px solid white;
-	border-radius: 30px;
-	margin: 0 3vw 0 5vw;
-}
-ul hr {
-	color: white;
-	border: 3px solid white;
+	color: transparent;
+	border-bottom: 1px solid white;
 	margin: 1em 3em 1em 0;
 }
 ul {
 	list-style-type: none;
-	margin-left: 3vw;
+	margin: 4vw;
+	padding-left: 1em;
 }
 
 ul a {
@@ -112,7 +99,7 @@ li {
 
 footer, header {
 	background-color: #49111c;
-	padding-bottom: 1em;
+	padding: 2em 0 1em;
 }
 
 footer h3 {
@@ -186,17 +173,28 @@ footer .social {
 	float: none;
 	display: block;
 	margin: 1em 0.5em 0;
+	padding-left: 1em;
 }
 
 .social img:hover {
 	border-bottom: 1px dotted white;
 }
 
-#hamburger {
-	float: right;
-	margin-left: 0;
-	margin: -2.1em 1.3em;
+menu {
+	position: fixed;
 	background-color: #49111c;
+	top: 0;
+	width: 75vw;
+	border-radius: 0 20px 20px 20px;
+}
+
+#hamburger {
+	padding: 0.5em;
+	position: fixed;
+	background-color: #49111c;
+	border-radius: 10px;
+	top: 0;
+	left: 80vw;
 }
 
 @media screen and (min-width: 600px) {
@@ -228,22 +226,18 @@ footer .social {
 	#hamburger {
 		display: none;
 	}
-
+	figure img {
+		border-radius: 0px;
+	}
+	ul {
+		padding-left: 0;
+	}
 	menu {
 		position: fixed;
 		top: 10vh;
 		left: 75vw;
-		background-color: #49111c;
 		width: 20vw;
 		padding: 1em;
-	}
-	menu ul {
-		border: 10px solid white;
-		border-radius: 30px;
-		padding: 1em;
-		margin-left: 0;
-	}
-	menu {
 		border-radius: 30px;
 	}
 }
